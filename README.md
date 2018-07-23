@@ -47,10 +47,14 @@ Clicking 'Plot' after changing the number of iterations will result in recalcula
 
 Clicking 'Save' will result in saving the current image to a tiff image in the current working directory.  The file name will be a combination of values shown in the input boxes.
 
-##AUTHOR
+## AUTHOR
 
 S. Tootle
 
-##Noteable Code Sources
+## Noteable Code Sources
 * [OpenCL](https://github.com/inducer/pyopencl/blob/master/examples/demo_mandelbrot.py) - Function utilizing GPU acceleration
 * Thanks to [Shufti](https://github.com/danboid/shufti) - Great foundation for figuring out displaying and interacting with images
+
+## Further Development
+
+Should one be interested in modifying the project based on their own needs or interests, Fractals.ui is the QTDesigner4 ui file that contains the current revision of the User Interface.  In a very inelegant fashion, the code generated from the Fractsals.ui file is copy+pasted into the PyBrot (view source comments to see where this takes place) 
